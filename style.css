@@ -1,0 +1,22 @@
+h3{
+    font-size: 35px !important;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blue;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    
+    }
+
+
+@keyframes example{
+    from {box-shadow:1px 1px 38px red ;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
+
