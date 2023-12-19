@@ -9,6 +9,9 @@ canvas{
     animation-duration: 3.5s;
     animation-iteration-count: infinite;
     }
+body{
+    background-image: url(background.png);
+}
 
 @keyframes example{
     from {box-shadow:1px 1px 38px red ;}
