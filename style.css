@@ -10,7 +10,7 @@ canvas{
     animation-iteration-count: infinite;
     }
 body{
-    background-image: url(background.png);
+    background-image: url(background.png) !important;
 }
 
 @keyframes example{
